@@ -8,6 +8,7 @@ import sys
 def in_conda():
     """Return True if this Python is in conda, False otherwise.
     """
+    # TODO: better way of checking this?
     return 'Continuum' in sys.version
 
 def conda_environment_path():
